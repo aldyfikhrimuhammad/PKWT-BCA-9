@@ -96,17 +96,6 @@ navbar {
 
 .outer-side {
   margin: 5em;
-  border: 2px solid black;
-  padding: 25px;
-  border-radius: 5px;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  -ms-border-radius: 5px;
-  -o-border-radius: 5px;
-}
-
-.inner-side {
-  border: 2px solid black;
   padding: 25px;
   border-radius: 5px;
   -webkit-border-radius: 5px;
