@@ -146,6 +146,19 @@ navbar {
   box-shadow: 15px 15px 20px 1px rgba(0, 0, 0, 0.5);
   -webkit-box-shadow: 15px 15px 20px 1px rgba(0, 0, 0, 0.5);
   -moz-box-shadow: 15px 15px 20px 1px rgba(0, 0, 0, 0.5);
+  transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+}
+
+.img-home:hover {
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
 }
 
 #about {
@@ -177,9 +190,20 @@ navbar {
   margin-bottom: 25px;
 }
 
-.card {
-  border: 2px solid black !important;
-  background-color: #eee !important;
+.skills-logo {
+  transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+}
+
+.skills-logo:hover {
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
 }
 
 footer {
