@@ -44,6 +44,8 @@ a:hover {
   -moz-transform: scale(1.1);
 }
 
+/* Navbar Section */
+
 navbar {
   background-color: #eee !important;
 }
@@ -69,6 +71,8 @@ navbar {
   -ms-transform: scale(1.1) !important;
   -o-transform: scale(1.1) !important;
 }
+
+/* Home Section */
 
 .home-content {
   border: 2px solid black;
@@ -156,6 +160,8 @@ navbar {
   -o-transform: scale(1.1);
 }
 
+/* About Section */
+
 #about {
   padding: 20px;
   border: 2px solid black;
@@ -201,6 +207,8 @@ navbar {
   -o-transform: scale(1.1);
 }
 
+/* Contact Section */
+
 #contact {
   padding: 20px;
   border: 2px solid black;
@@ -214,14 +222,13 @@ navbar {
 }
 
 h4 {
-  font-family: "Roboto", sans-serif, "arial";
   font-weight: 400;
   font-size: 20px;
   color: #9b9b9b;
   line-height: 1.5;
 }
 
-/* inputs */
+/* inputs Section */
 
 input:focus ~ label,
 textarea:focus ~ label,
@@ -323,16 +330,6 @@ textarea {
     float: none;
     text-align: center;
   }
-}
-
-input[type="checkbox"] + label {
-  color: #ccc;
-  font-style: italic;
-}
-
-input[type="checkbox"]:checked + label {
-  color: #f00;
-  font-style: normal;
 }
 
 footer {
