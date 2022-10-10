@@ -173,6 +173,13 @@ navbar {
   margin-top: 25px;
 }
 
+.about-container {
+  border-radius: 20px;
+  box-shadow: 10px 10px 25px -5px rgba(0, 0, 0, 0.45);
+  -webkit-box-shadow: 10px 10px 25px -5px rgba(0, 0, 0, 0.45);
+  -moz-box-shadow: 10px 10px 25px -5px rgba(0, 0, 0, 0.45);
+}
+
 #about h1 {
   border: 4px black;
   border-style: solid solid none none;
